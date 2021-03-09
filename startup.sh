@@ -22,4 +22,5 @@ rm -Rf $name
 thisname='StartUpFiles'
 startupfiles=$(find ~/Documents -type d -name $thisname)
 [[ $startupfiles != $name ]] && cd $startupfiles
+cd ..
 rm -Rf $thisname
