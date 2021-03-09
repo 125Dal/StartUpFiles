@@ -8,8 +8,10 @@ git clone git@github.com:125Dal/Brewfile.git
 git clone git@github.com:125Dal/.zshrc.git
 git clone git@github.com:125Dal/Hyper.js.git
 
+cd Brewfile
 brew bundle
 
+cd ..
 mv .zshrc/.zshrc ~
 mv Hyper.js/.hyper.js ~
 
